@@ -1,2 +1,2 @@
-# an-expanded-meditation
+# An Expanded Meditation
 NaNoGenMo entry for 2022.
