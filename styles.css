@@ -1,0 +1,55 @@
+@font-face {
+	font-family: Vollkorn;
+	src: url('./vollkorn/Vollkorn-Regular.ttf');
+}
+
+@font-face {
+	font-family: Vollkorn;
+	src: url('./vollkorn/Vollkorn-Bold.ttf');
+	font-weight: bold;
+}
+
+body {
+	font-family: Vollkorn;
+	font-size: 1.2em;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #529aaa;
+}
+
+main {
+	margin: 10px;
+}
+
+#tracery-main {
+	background-color: #fcf7e8;
+}
+
+#tracery-main h1 {
+	padding: 10px;
+	padding-top: 30px;
+}
+
+#tracery-main p {
+	padding: 10px;
+	padding-bottom: 30px;
+}
+
+aside {
+	background-color: #fcf7e8;
+	margin: 10px;
+	padding: 10px;
+}
+
+a {
+	font-weight: bold;
+	color: black;
+}
+
+button {
+	border-radius: 0px;
+	border: 2px solid black;
+	padding: 5px;
+	background-color: #f9eec2;
+}

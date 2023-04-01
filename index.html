@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>An Expanded Meditation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- import minified jquery lib -->
+    <script defer src="jquery.js"></script>
+    <!-- import minified tracery lib -->
+	<script defer src="tracery.min.js"></script>
+	<!-- import our own code for generating text -->
+	<script defer src="generate.js"></script>
+</head>
+<body>
+	<aside>
+		<p>This is an entry for <a href="https://github.com/NaNoGenMo/2022">NaNoGenMo 2022</a>.<br/>
+		More details can be found <a href="https://emmajuettner.com/posts/an-expanded-meditation/">here</a>.</p>
+		<button onclick="reloadTraceryElements()">Generate Novel</button>
+	</aside>
+	<main>
+		<div id="tracery-main"></div>
+	</main>
+</body>
+</html>
